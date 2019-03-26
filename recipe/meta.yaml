@@ -1,7 +1,7 @@
 {% set name = "fastnumbers" %}
-{% set version = "2.1.1" %}
+{% set version = "2.2.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "f792005acda74b589d9d42217bc7427ebe1b5fabd305ea6995403b5317f6980e" %}
+{% set hash = "b48462d9ac6cdaca6bd5f7758e6bf229d106a5d9e76b893b4aaf0f96bfe531e5" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1000
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
