@@ -36,7 +36,7 @@ tests:
   - python:
       imports:
         - fastnumbers
-      pip_check: false
+      pip_check: true
 
 about:
   license_file: LICENSE
